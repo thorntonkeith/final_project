@@ -1,0 +1,162 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+/************************ Navigation Styles ************************/
+
+.navbar-brand img {
+    height: 100px;
+    width: 200px;
+}
+
+.nav-link:hover {
+    background-color: #287a25;
+    color: #287a25;
+    border-radius: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: #287a25;
+}
+
+.navbar-toggler {
+    background-color: #287a25;
+}
+
+.active {
+    background-color: #287a257c;
+    border-radius: 10px;
+}
+
+
+/************************ Card Styles ************************/
+
+.inner {
+    overflow: hidden;
+}
+
+.inner {
+    transition: all 0.5s ease;
+}
+
+.inner:hover {
+    transform: scale(1.03);
+}
+
+
+/************************ Footer Styles ************************/
+
+.footer-reg {
+    margin-top: 200px;
+}
+
+footer {
+    margin-top: 50px;
+    background-image: linear-gradient(to left, #287a2528, black);
+}
+
+.fa {
+    padding-top: 5px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+}
+
+.fa:hover {
+    color: #287a25;
+}
+
+.fa-facebook {
+    background: white;
+    color: black;
+}
+
+.fa-twitter {
+    background: white;
+    color: black;
+}
+
+.fa-youtube {
+    background: white;
+    color: black;
+}
+
+.fa-instagram {
+    background: white;
+    color: black;
+}
+
+.footer-brand p {
+    font-size: large;
+}
+
+.footer-img {
+    height: 100px;
+    width: 200px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.footer-links a:hover {
+    color: #287a25;
+}
+
+
+/************************ Button Styles ************************/
+
+.btn-dark:hover {
+    background-color: #287a25;
+    color: black;
+}
+
+.btn-light:hover {
+    background-color: #287a25;
+    color: black;
+}
+
+
+/************************ Sign In Form Styles ************************/
+
+.form-check-label:hover {
+    color: #287a25;
+}
+
+.small a {
+    color: #287a25;
+}
+
+.small a:hover {
+    color: #29a125;
+}
+
+.check a {
+    color: #287a25;
+}
+
+.check a:hover {
+    color: #29a125;
+}
+
+
+/************************ Account Management Styles ************************/
+
+.media img {
+    height: 200px;
+}
